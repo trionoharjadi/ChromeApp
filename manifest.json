@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "ChromeApp",
+  "short_name": "ChromeApp",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+   "browser_action": {
+        "default_icon": "ic_alarm_black_48dp_2x.png",
+        "default_title": "Marketing Ext", 
+        "default_popup": "index.html"
+    }, 
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
